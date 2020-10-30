@@ -1,0 +1,21 @@
+PODS:
+  - pod-library (0.1.0):
+    - pod-library/Core (= 0.1.0)
+    - pod-library/Logic (= 0.1.0)
+  - pod-library/Core (0.1.0)
+  - pod-library/Logic (0.1.0):
+    - pod-library/Core
+
+DEPENDENCIES:
+  - pod-library (from `pod-library`)
+
+EXTERNAL SOURCES:
+  pod-library:
+    :path: pod-library
+
+SPEC CHECKSUMS:
+  pod-library: 38156fcfe903cb91ea85dfa1b0ae95faed151c97
+
+PODFILE CHECKSUM: 16457bc26acb0b0f4038c4d95a78a59a32166f1d
+
+COCOAPODS: 1.2.1
